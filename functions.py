@@ -30,3 +30,12 @@ print(z*r)
 c=float(input("the first number"))
 d=float(input("the  second number"))
 print(c/d)
+
+user_input = input("what is your favourite colour?")
+print("my  favourite colour is",user_input.upper())
+print("my favourite colour is",user_input.lower())
+
+#
+color=input("Which is your favorite color: ")
+print("My favourite color is: {}" .format(color).lower())
+#
