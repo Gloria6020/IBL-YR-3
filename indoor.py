@@ -6,3 +6,4 @@ print("my favourite colour is",user_input.lower())
 color=input("Which is your favorite color: ")
 print("My favourite color is: {}" .format(color).lower())
 
+
