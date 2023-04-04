@@ -25,3 +25,8 @@ print(f"{number_one * number_two}")#second  product
 z=float(input("first  name"))#first  float
 r=float(input("second name"))#second  float
 print(z*r)
+
+#Variables  continued
+c=float(input("the first number"))
+d=float(input("the  second number"))
+print(c/d)
