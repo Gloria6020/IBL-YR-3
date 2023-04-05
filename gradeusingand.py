@@ -40,6 +40,13 @@ else:
     
     
     
+# This code is taking an input from the user as a score and then checking the score against different
+# ranges to determine the grade. If the score is greater than or equal to 90, it will print "grade:
+# A". If the score is greater than or equal to 80, it will print "grade: B". If the score is greater
+# than or equal to 70, it will print "grade: C". If the score is greater than or equal to 60, it will
+# print "grade: D". If the score is less than 60, it will print "grade: f". This code is using elif
+# statements instead of multiple if statements to ensure that the else statement is associated with
+# all the if statements.
 if score >= 90:
     print("grade: A")
 elif score >= 80:

@@ -1,5 +1,6 @@
 # function of addition
 x=int(input("enter the value of x "))
+ 
 y=int(input("enter the value of y "))
 
 def addition():
@@ -18,7 +19,6 @@ hello(name)#takes the name that the user inputs
 
 #the above code in another method
 name=input("whta is your name?").strip()
-
 def hello(z="WORLD"):
     print("hello, ",z)
     
