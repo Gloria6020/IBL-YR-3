@@ -8,7 +8,7 @@ print("The energy is: {}". format(energy))
 #another method to calculate
 #Energy=mass x(constant)(constant)
 mass=int(input("enter the mass in kgs"))
-speed=90000000000000000
-print(mass*speed)
+speed=90000000000000000 #the constant squared
+print(mass*speed)# multiplying  the mass and speeed
 
 
