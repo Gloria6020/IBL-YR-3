@@ -1,3 +1,4 @@
+
 import random
 
 #core of the program
@@ -49,5 +50,5 @@ def get_integer(n):
         int = random.randint(100,999)
         return int
 #calls main function
-if _name_ == "__main__":
+if __name__ == "__main__":
     main()
