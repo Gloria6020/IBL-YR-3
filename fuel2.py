@@ -1,3 +1,17 @@
+"""
+    The function takes a fraction input in X/Y format, converts it to a percentage, and returns a gauge
+    reading based on the percentage.
+    
+    :param fraction: The fraction of the fuel tank that is filled, entered by the user in X/Y format
+    (where X and Y are integers)
+    :return: The program prompts the user to enter a fraction in X/Y format representing the percentage
+    of a fuel tank that is filled. It then converts the fraction to a percentage, rounds it to the
+    nearest whole number, and passes it to the `gauge` function. The `gauge` function returns a string
+    representing the fuel gauge level based on the percentage. If the percentage is less than or equal
+    to
+    """
+    
+    
 def convert(fraction):
     try:
         x, y = map(int, fraction.split('/'))

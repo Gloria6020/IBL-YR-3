@@ -25,3 +25,14 @@ else: # The script name (sys.argv[0]) and one argument.
         # Outputs the current cost of n Bitcoins in USD.
         print(f"${n * bitcoin_price:,.4f}")
         # Four decimal places. Comma as a thousands separator.
+
+
+
+
+
+
+
+
+
+
+

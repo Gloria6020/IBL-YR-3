@@ -1,0 +1,23 @@
+import re
+import sys
+
+
+def main():
+    print(validate(input("IPv4 Address: ")))
+
+
+def validate(ip):
+    pattern = re.compile(r"^(\d+)\.(\d+)\.(\d+)\.(\d+)$")
+    match = pattern.match(ip)
+    if not match:
+        return False
+    for i in range(1, 5):
+        num = int(match.group(i))
+        if num < 0 or num > 255:
+            return False
+    return True
+
+
+if __name__ == "__main__":
+    main()
+
